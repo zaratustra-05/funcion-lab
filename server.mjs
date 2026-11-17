@@ -30,6 +30,7 @@ async function answer(messages, context = {}) {
 
 const server = http.createServer(async (req, res) => {
   try {
+    if (req.method === 'GET' && req.url === '/api/health') return json(res, 200, { ok: true, service: 'funcion-lab' });
     if (req.method === 'POST' && req.url === '/api/assistant') {
       if (!allowed(req)) return json(res, 429, { error: 'Has enviado muchas preguntas. Espera un momento e inténtalo de nuevo.' });
       let raw = ''; for await (const chunk of req) { raw += chunk; if (raw.length > MAX_BODY) return json(res, 413, { error: 'La pregunta es demasiado larga.' }); }
