@@ -1,7 +1,7 @@
 # Plan de implementación — Función Lab
 
 ## Propósito
-Crear una experiencia web interactiva, en español, para estudiantes de grados 10 y 11. Un selector permite explorar cinco familias —lineales, cuadráticas, valor absoluto, cúbicas y exponenciales—, cada una representada mediante ecuación, gráfica cartesiana y tabla. Las actividades conectan la resolución de ecuaciones como f(x)=0 con ceros e intersecciones.
+Crear una experiencia web interactiva, en español, para estudiantes de grados 10 y 11. La portada debe identificar a Joan David Arzuza Borja como estudiante de Licenciatura en Matemáticas, explicar el propósito académico de la plataforma y orientar al visitante hacia exploración, aprendizaje, creación y comprobación. Un selector permite explorar seis familias —lineales, cuadráticas, valor absoluto, cúbicas, exponenciales y logarítmicas—, cada una representada mediante ecuación, gráfica cartesiana y tabla. Las actividades conectan la resolución de ecuaciones como f(x)=0 con ceros e intersecciones.
 
 ## Alcance aprobado
 - Selector de funciones lineales, cuadráticas, de valor absoluto, cúbicas y exponenciales, con ejemplos guiados adecuados para los grados 10 y 11.
@@ -12,6 +12,8 @@ Crear una experiencia web interactiva, en español, para estudiantes de grados 1
 - Controles para modificar parámetros y observar los cambios al instante.
 - Explicaciones breves que conecten cada representación con la información que comunica.
 - Actividades guiadas con verificación inmediata, pistas y explicación.
+- Portada institucional con autoría, formación, propósito y ruta de uso.
+- Diagnóstico FODA visible en la página y documentado en `diagnostico-foda.md`.
 - Diseño responsivo y accesible para computador, tableta y móvil.
 
 ## Decisiones de implementación

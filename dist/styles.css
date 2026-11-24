@@ -497,3 +497,45 @@ html[data-theme="dark"] .assistant-message-user { color: #041a27; background: #b
 html[data-theme="dark"] .assistant-form { border-color: #26485f; }
 html[data-theme="dark"] .assistant-form textarea { color: #edfaff; border-color: #3d667d; background: #071523; }
 @media (max-width: 600px) { .assistant-widget { right: 12px; bottom: 12px; left: 12px; }.assistant-launcher { justify-self: end; }.assistant-panel { width: 100%; }.assistant-messages { max-height: 230px; } }
+
+
+
+/* Portada académica y diagnóstico FODA */
+.project-section { display: grid; grid-template-columns: .8fr 1.2fr; gap: 4rem; align-items: center; padding: 5.8rem max(24px, calc((100% - 1280px) / 2)); background: #fff; border-top: 1px solid #e3eef2; border-bottom: 1px solid #e3eef2; }
+.project-intro h2 { max-width: 540px; margin: 0 0 1.1rem; font-size: clamp(2.3rem, 4vw, 3.8rem); line-height: .98; }
+.project-intro > p:not(.eyebrow) { max-width: 460px; color: #657e8f; font-size: .9rem; line-height: 1.75; }
+.project-link { display: inline-flex; gap: .45rem; margin-top: .4rem; color: #087f9b; font-size: .75rem; font-weight: 800; }
+.project-link:hover { color: #045c72; text-decoration: underline; text-underline-offset: 4px; }
+.project-identity { display: grid; grid-template-columns: auto 1fr; gap: 1rem 1.2rem; align-items: center; padding: 1.6rem; border: 1px solid #cfe4e9; border-radius: 22px; background: linear-gradient(135deg, #effcff 0%, #fff 62%, #f1ffe6 100%); box-shadow: 0 18px 38px rgba(31,89,108,.08); }
+.identity-mark { display: grid; width: 66px; height: 66px; position: relative; place-items: center; border: 2px solid #11364c; border-radius: 17px; color: #11364c; font: bold 2.7rem Georgia, serif; }
+.identity-mark span { position: absolute; right: 3px; bottom: 2px; color: #00a8cf; font-size: 1.2rem; transform: rotate(-12deg); }
+.project-identity h3 { margin: .4rem 0 .25rem; color: #173d54; font-size: 1.35rem; letter-spacing: -.03em; }
+.project-identity > div:nth-child(2) > p:last-child { margin: 0; color: #658093; font-size: .75rem; }
+.identity-purpose { grid-column: 1 / -1; display: grid; gap: .35rem; margin-top: .55rem; padding-top: 1rem; border-top: 1px dashed #b9dce3; }
+.identity-purpose span { color: #5e8395; font: 800 .58rem "DM Mono", monospace; letter-spacing: .1em; }
+.identity-purpose strong { color: #28576c; font-size: .92rem; line-height: 1.45; }
+.foda-section { padding: 6.8rem max(24px, calc((100% - 1280px) / 2)); background: #f7fbfd; border-bottom: 1px solid #e0edf2; }
+.foda-section .compact-heading { margin-bottom: 2rem; }
+.foda-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: .8rem; }
+.foda-card { min-height: 220px; padding: 1.25rem 1.1rem; border: 1px solid #d7e7ec; border-top: 4px solid; border-radius: 16px; background: #fff; box-shadow: 0 10px 24px rgba(25,70,90,.045); }
+.foda-card > span { font: 800 .58rem "DM Mono", monospace; letter-spacing: .1em; }
+.foda-card h3 { margin: .75rem 0 .55rem; color: #173d54; font-size: 1.12rem; line-height: 1.1; }
+.foda-card p { margin: 0; color: #668092; font-size: .73rem; line-height: 1.65; }
+.foda-strength { border-top-color: #49bdd1; }.foda-strength > span { color: #087f9b; }
+.foda-opportunity { border-top-color: #9ad948; }.foda-opportunity > span { color: #5b8d26; }
+.foda-weakness { border-top-color: #ffc960; }.foda-weakness > span { color: #a87510; }
+.foda-threat { border-top-color: #ff796d; }.foda-threat > span { color: #c4564f; }
+html[data-theme="dark"] .project-section { background: #071422; border-color: #1d3d53; }
+html[data-theme="dark"] .project-intro > p:not(.eyebrow) { color: #b4ccd7; }
+html[data-theme="dark"] .project-identity { border-color: #2e566d; background: linear-gradient(135deg, #0c2a3c 0%, #0d2134 62%, #193425 100%); box-shadow: 0 18px 40px rgba(0,0,0,.2); }
+html[data-theme="dark"] .identity-mark { color: #eafaff; border-color: #79d9ea; }
+html[data-theme="dark"] .project-identity h3 { color: #f0fbff; }
+html[data-theme="dark"] .project-identity > div:nth-child(2) > p:last-child { color: #b0cbd6; }
+html[data-theme="dark"] .identity-purpose { border-color: #2c5368; }
+html[data-theme="dark"] .identity-purpose strong { color: #e0f5fa; }
+html[data-theme="dark"] .foda-section { background: #081a2a; border-color: #1d3d53; }
+html[data-theme="dark"] .foda-card { border-color: #2c5268; background: #0e263a; box-shadow: 0 12px 28px rgba(0,0,0,.2); }
+html[data-theme="dark"] .foda-card h3 { color: #effaff; }
+html[data-theme="dark"] .foda-card p { color: #b1cbd6; }
+@media (max-width: 1020px) { .project-section { grid-template-columns: 1fr; gap: 2rem; }.foda-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .project-section, .foda-section { padding: 4.7rem 16px; }.project-section { gap: 1.6rem; }.project-identity { padding: 1.2rem; }.foda-grid { grid-template-columns: 1fr; }.foda-card { min-height: 0; } }
