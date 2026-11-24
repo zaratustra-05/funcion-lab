@@ -9,7 +9,7 @@
 **Autor:** Joan David Arzuza Borja  
 **Formación:** Estudiante de Licenciatura en Matemáticas
 
-El propósito del proyecto es ayudar a estudiantes de grados 10 y 11 a comprender las funciones como reglas que pueden leerse desde diferentes perspectivas. La página permite modificar parámetros, observar transformaciones, comprobar puntos, practicar valores y resolver retos con retroalimentación.
+El propósito del proyecto es ayudar a estudiantes de grados 10 y 11 a comprender las funciones como reglas que pueden leerse desde diferentes perspectivas. La página permite modificar parámetros, observar transformaciones, comprobar puntos, practicar valores y resolver retos con retroalimentación. La nueva expansión añade una estación 3D para pasar de curvas a superficies y un laboratorio libre para superponer varias funciones sin reemplazarlas.
 
 ## Entra a la página
 
@@ -27,6 +27,8 @@ El repositorio conserva el código y el historial de desarrollo. La página publ
 - Tema oscuro de alto contraste.
 - Asistente educativo en español.
 - Portada académica con fotografía, autoría y explicación del propósito.
+- Laboratorio 3D con planos, paraboloides, conos, sillas de montar, cilindros y esferas.
+- Laboratorio libre con hasta seis funciones superpuestas y parámetros independientes.
 
 ## Si GitHub muestra 404
 

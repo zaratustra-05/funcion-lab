@@ -19,3 +19,5 @@
 - [x] **Matriz FODA aplicada.** Usar las fortalezas, oportunidades, debilidades y amenazas como diagnóstico interno para orientar mejoras, sin mostrar la matriz dentro de la experiencia principal del estudiante.
 - [x] **README para visitantes y resolución del 404.** Documentar el enlace público, la autoría y las funcionalidades; el repositorio fue cambiado a público con autorización explícita.
 - [x] **Fotografía e identidad de portada.** Incorporar la foto proporcionada por Joan David Arzuza Borja en su descripción y reforzar la entrada visual con la secuencia “Explora · Ajusta · Conecta”.
+- [x] **Laboratorio 3D independiente.** Añadir una estación separada del laboratorio guiado para explorar la transición de curvas conocidas a superficies: plano, paraboloide, cono, silla de montar, cilindro y esfera, con rotación y zoom interactivos.
+- [x] **Laboratorio libre de superposición.** Permitir agregar hasta seis funciones simultáneas, elegir su familia, editar `a`, `h` y `k`, ocultar capas y quitar funciones sin reemplazar la exploración guiada.
