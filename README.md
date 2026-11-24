@@ -1,6 +1,7 @@
 # Función Lab
 
 [![Abrir Función Lab](https://img.shields.io/badge/Abrir%20la%20p%C3%A1gina-Funci%C3%B3n%20Lab-0aa8cf?style=for-the-badge)](https://funcionlab-urgbqrhr.manus.space/)
+[![Demo alternativa](https://img.shields.io/badge/Demo%20alternativa-Probar%20ahora-18b6c9?style=for-the-badge)](https://raw.githack.com/zaratustra-05/funcion-lab/main/dist/index.html)
 
 **Función Lab** es una plataforma educativa interactiva para explorar funciones lineales, cuadráticas, de valor absoluto, cúbicas, exponenciales y logarítmicas mediante tres representaciones conectadas: expresión algebraica, tabla de valores y gráfica.
 
@@ -14,6 +15,8 @@ El propósito del proyecto es ayudar a estudiantes de grados 10 y 11 a comprende
 ## Entra a la página
 
 Visita la experiencia publicada: **[funcionlab-urgbqrhr.manus.space](https://funcionlab-urgbqrhr.manus.space/)**
+
+Si el enlace de Manus muestra una versión anterior, utiliza la **[demo alternativa inmediata](https://raw.githack.com/zaratustra-05/funcion-lab/main/dist/index.html)**, que carga directamente la versión más reciente de `dist/` desde este repositorio. En la primera visita, el visor puede mostrar una pantalla informativa; basta con pulsar **Open the page**.
 
 El repositorio conserva el código y el historial de desarrollo. La página publicada es el lugar para interactuar con el laboratorio.
 
