@@ -26,11 +26,11 @@ El repositorio conserva el código y el historial de desarrollo. La página publ
 - Práctica rápida y retos variables.
 - Tema oscuro de alto contraste.
 - Asistente educativo en español.
-- Matriz FODA y explicación del propósito académico.
+- Portada académica con fotografía, autoría y explicación del propósito.
 
 ## Si GitHub muestra 404
 
-Este repositorio está configurado como privado. Por eso una persona que no tenga acceso puede recibir `404 Not Found`, aunque el proyecto exista y esté conectado correctamente. Para que un profesor pueda abrir este enlace sin iniciar sesión, el repositorio debe hacerse público desde la configuración de GitHub. La página educativa sí puede visitarse desde el enlace de Manus de arriba.
+El repositorio ahora es público, por lo que cualquier visitante puede abrir este enlace sin iniciar sesión. La página educativa también puede visitarse desde el enlace de Manus de arriba.
 
 ## Tecnologías
 

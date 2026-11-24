@@ -13,7 +13,8 @@ Crear una experiencia web interactiva, en español, para estudiantes de grados 1
 - Explicaciones breves que conecten cada representación con la información que comunica.
 - Actividades guiadas con verificación inmediata, pistas y explicación.
 - Portada institucional con autoría, formación, propósito y ruta de uso.
-- Diagnóstico FODA visible en la página y documentado en `diagnostico-foda.md`.
+- Diagnóstico FODA documentado en `diagnostico-foda.md` y aplicado internamente para orientar mejoras, sin interrumpir la experiencia principal del estudiante.
+- Portada académica con fotografía del autor y una firma visual breve que introduce la secuencia “Explora · Ajusta · Conecta”.
 - Diseño responsivo y accesible para computador, tableta y móvil.
 
 ## Decisiones de implementación

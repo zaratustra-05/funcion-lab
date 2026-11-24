@@ -16,5 +16,6 @@
 - [x] **Validación y vista previa.** Comprobar sintaxis JavaScript/servidor, rutas estáticas, respuesta del asistente, apertura del panel, respuesta en navegador y alternancia del tema oscuro.
 - [x] **Repositorio privado nuevo en GitHub.** Transferir oficialmente el proyecto al repositorio privado `funcion-lab`, verificando que `main` contenga el checkpoint más reciente sin publicar el sitio.
 - [x] **Portada institucional y autoría.** Presentar el propósito educativo de Función Lab, identificar a Joan David Arzuza Borja como estudiante de Licenciatura en Matemáticas y ofrecer una ruta clara hacia explorar, aprender, crear y comprobar.
-- [x] **Matriz FODA aplicada.** Mostrar en la página las fortalezas, oportunidades, debilidades y amenazas principales, junto con las mejoras aplicadas para orientar mejor al visitante y diferenciar la experiencia publicada del repositorio.
-- [x] **README para visitantes y diagnóstico del 404.** Documentar el enlace público, la autoría, las funcionalidades y la causa del error 404: el repositorio de GitHub sigue privado y no se cambia su visibilidad sin autorización explícita.
+- [x] **Matriz FODA aplicada.** Usar las fortalezas, oportunidades, debilidades y amenazas como diagnóstico interno para orientar mejoras, sin mostrar la matriz dentro de la experiencia principal del estudiante.
+- [x] **README para visitantes y resolución del 404.** Documentar el enlace público, la autoría y las funcionalidades; el repositorio fue cambiado a público con autorización explícita.
+- [x] **Fotografía e identidad de portada.** Incorporar la foto proporcionada por Joan David Arzuza Borja en su descripción y reforzar la entrada visual con la secuencia “Explora · Ajusta · Conecta”.
