@@ -44,3 +44,14 @@ La combinación anterior es consistente con un repositorio privado o no visible 
 - Sección visible de diagnóstico FODA con acciones de mejora.
 - Accesos directos para explorar, aprender, practicar y revisar el diagnóstico.
 - README de GitHub con botón a la página pública, autoría y explicación del proyecto.
+
+## Revisión FODA: segunda dimensión interactiva
+
+### Hallazgo y acción
+- **Fortaleza:** la página ya conecta regla, gráfica, tabla y práctica en 2D, y la primera estación 3D conserva esa lógica de pasar de una curva conocida a una superficie.
+- **Oportunidad:** una escena 3D sin escala ni vistas ortogonales podía convertirse en una imagen llamativa pero difícil de leer matemáticamente. Se añadieron cuadrícula, unidades, escala visible y vistas desde arriba, frontal y lateral.
+- **Debilidad:** el laboratorio libre inicial solo superponía funciones 2D y obligaba a comparar superficies una por una. Se añadió una composición libre 3D con hasta cuatro superficies, visibilidad independiente y relieve editable.
+- **Amenaza:** el zoom automático o el encuadre fijo podía ocultar transformaciones, tamaños relativos y cortes. Ahora el estudiante puede acercar, alejar, arrastrar, cambiar de cámara y restaurar la escala tanto en 2D como en 3D.
+
+### Criterio pedagógico aplicado
+La ruta queda separada en tres niveles: laboratorio guiado para aprender familias y representaciones, laboratorio 3D guiado para reconocer superficies y sus conexiones con curvas, y composición libre 2D/3D para formular hipótesis sin borrar exploraciones anteriores. La escala se presenta como una variable de lectura, no como un adorno visual: primero se observa la misma unidad y después se ajusta el encuadre para investigar.

@@ -21,3 +21,10 @@
 - [x] **Fotografía e identidad de portada.** Incorporar la foto proporcionada por Joan David Arzuza Borja en su descripción y reforzar la entrada visual con la secuencia “Explora · Ajusta · Conecta”.
 - [x] **Laboratorio 3D independiente.** Añadir una estación separada del laboratorio guiado para explorar la transición de curvas conocidas a superficies: plano, paraboloide, cono, silla de montar, cilindro y esfera, con rotación y zoom interactivos.
 - [x] **Laboratorio libre de superposición.** Permitir agregar hasta seis funciones simultáneas, elegir su familia, editar `a`, `h` y `k`, ocultar capas y quitar funciones sin reemplazar la exploración guiada.
+
+
+## Ampliación 3D y lectura de escala — completado
+- La estación 3D muestra cuadrícula, unidades y etiqueta de escala; permite cambiar entre perspectiva, vista superior, frontal y lateral, además de acercar, alejar, arrastrar y restaurar la cámara.
+- La gráfica libre 2D muestra su rango visible y permite zoom, desplazamiento mediante arrastre/rueda y restauración del encuadre sin eliminar capas.
+- La estación 3D incorpora una composición libre independiente con hasta cuatro superficies, selección de plano, paraboloide, cono, silla de montar, cilindro o esfera, relieve editable, visibilidad y eliminación por capa.
+- La ruta pedagógica conserva el laboratorio guiado como aprendizaje de familias y representaciones; la exploración 3D guiada introduce superficies; la composición libre queda para comparar y formular hipótesis.

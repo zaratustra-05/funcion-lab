@@ -52,3 +52,7 @@ funcionlab/
 
 ## Publicación
 La salida estática se servirá desde `dist/`. No se requieren credenciales, servidor ni base de datos.
+
+
+## Ampliación de la estación 3D
+La experiencia mantiene tres capas pedagógicas separadas: el laboratorio guiado de familias 2D, la estación 3D guiada para reconocer cómo una curva se convierte en superficie y una composición libre para superponer varias funciones o superficies sin borrar las anteriores. La escala permanece visible mediante cuadrícula, unidades y rangos explícitos. La cámara ofrece perspectiva, vistas superior, frontal y lateral; los controles de zoom, arrastre y restablecimiento permiten investigar la forma sin confundir cambio de encuadre con transformación matemática. La composición libre 3D usa Canvas nativo, comparte la proyección y el catálogo de superficies de la estación guiada y limita la escena a cuatro capas para conservar legibilidad.
